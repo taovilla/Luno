@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+    <title>Leno--Best mobile Application Development</title>
+</head>
+<body>
+    <!--Navbar-->
+<nav>
+
+    <!--nav container-->
+    <div class="flex flex-row justify-between px-5 pt-7 pb-5 bg-deep-black text-white font-opensans lg:bg-deep-blue lg:fixed lg:w-full lg:px-3">
+        <!--nav logo-->
+        <img  class="w-24" src="images/logo.svg" alt="">
+
+        <!--nav url container-->
+        <div class="hidden flex-row gap-5 justify-center md:flex">
+<!--nav url-->
+    <div class="flex flex-row gap-5">
+<a class="hover:text-light-aqua text-sm capitalize" href="">Home</a>
+<a class="hover:text-light-aqua text-sm capitalize" href="">article</a>
+<a class="hover:text-light-aqua text-sm capitalize"  href="">features</a>
+<a class="hover:text-light-aqua text-sm capitalize" href="">pricing</a>
+<a  class="hover:text-light-aqua text-sm capitalize" href="">drops</a>
+<a class="hover:text-light-aqua text-sm capitalize" href="">Contact</a>
+</div>
+<!--nav social-->
+<div class="flex flex-row justify-center  gap-1">
+<a href=""><img  class="w-6 hover:bg-white" src="images/icons8-facebook.svg" alt=""></a>
+<a href=""><img  class="w-6 hover:bg-white" src="images/icons8-twitter-circled.svg" alt=""></a>
+</div>
+
+        </div>
+
+<!--Hamburger icon-->
+<button id="menu-bar" class=" focus:outline-none hidden sm:block">
+    <iconify-icon icon="system-uicons:menu-hamburger" width="50" height="50"></iconify-icon>
+
+</button>
+    </div>
+
+    <!--mobile-->
+
+
+</nav>
+
+<!-- Hero section-->
+
+<section>
+    <!-- Hero section container-->
+<div class="bg-[url('./images/header-background.jpg')] bg-cover bg-center bg-no-repeat flex flex-col  justify-center gap-20 px-7 py-32 sm:px-20 lg:flex-row lg:pt-44 xl:px-40  ">
+    <!-- Hero section heading-->
+    <div class="flex flex-col justify-center items-center gap-7 text-white lg:w-auto">
+<h1 class="text-center text-4xl font-sans lg:text-start xl:text-5xl">MOBILE APP FOR DEVELOPER</h1>
+<P class="text-center text-md font-opensans sm:text-xl lg:text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet lectus id erat hendrerit ullamcorper</P>
+<!--hero buttton-->
+<div class="flex flex-col justify-center gap-5 sm:flex-row lg:items-start ">
+<button class="inline-flex gap-2 capitalize border border-light-aqua bg-light-aqua px-6 py-3 rounded-full font-opensans hover:bg-deeper-blue transition duration-1000 lg:px-7 xl:items-start"><span><img  class="w-6 text-white" src="images/icons8-apple-logo-50 (1).png" alt=""></span> for apple</button>
+<button class="inline-flex gap-2 capitalize border border-light-aqua  bg-light-aqua px-6 py-3 rounded-full font-opensans hover:bg-deeper-blue transition duration-1000 lg:px-7"><span><img  class="w-6 text-white" src="images/icons8-google-play-30.png" alt=""></span> for android</button>
+</div>
+    </div>
+
+    <!-- Hero section image-->
+    <img  class="lg:w-4/6 lg:h-3/6" src="images/header-smartphones.png" alt="">
+
+</div>
+
+</section>
+
+
+<!--Testimonial-->
+
+<section id="testimonial">
+
+    <!-- container-->
+    <div class="bg-deeper-black text-white flex flex-row items-center  justify-center px-5 py-20 md:gap-5 md:px-10 lg:px-14 xl:px-20 xl:gap-9" data-carousel="slide">
+
+        <span ><img class="w-24 font-bold" src="images/icons8-less-than-50.png" alt=""></span>
+        <!--profile 1-->
+<div class="flex flex-col items-center justify-center gap-5 ">
+    <img class="rounded-full w-24 " src="images/testimonial-1.jpg" alt="">
+    <p class="text-center font-opensans text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam vero unde porro doloremque incidunt!</p>
+    <h3 class="font-sans text-sm text-center">Ann Black - Developer</h3>
+</div>
+
+
+<!--profile 2-->
+<div class=" hidden flex-col items-center justify-center gap-5 md:flex">
+    <img class="rounded-full w-24 " src="images/testimonial-2.jpg" alt="">
+    <p class="text-center font-opensans text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam vero unde porro doloremque incidunt!</p>
+    <h3 class="font-sans text-sm">Juder Thorn - Designer</h3>
+</div>
+
+
+<!--profile 3-->
+<div class="hidden flex-col items-center justify-center gap-5 lg:flex ">
+    <img class="rounded-full w-24 " src="images/testimonial-3.jpg" alt="">
+    <p class="text-center font-opensans text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam vero unde porro doloremque incidunt!</p>
+    <h3 class="font-sans text-sm">Roy Smith - Developer</h3>
+</div>
+
+
+<!--profile 4-->
+<div class="hidden flex-col items-center justify-center gap-5 ">
+    <img class="rounded-full w-24 " src="images/testimonial-4.jpg" alt="">
+    <p class="text-center font-opensans text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam vero unde porro doloremque incidunt!</p>
+    <h3 class="font-sans text-sm">Marsher Singer - Makerter</h3>
+
+</div>
+
+<!--profile 5-->
+<div class="hidden flex-col items-center justify-center gap-5 ">
+    <img class="rounded-full w-24 " src="images/testimonial-5.jpg" alt="">
+    <p class="text-center font-opensans text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam vero unde porro doloremque incidunt!</p>
+    <h3 class="font-sans text-sm">Tim Shawer - Designer</h3>
+</div>
+
+
+<!--profile 6-->
+<div class="hidden flex-col items-center justify-center gap-5 ">
+    <img class="rounded-full w-24 " src="images/testimonial-6.jpg" alt="">
+    <p class="text-center font-opensans text-base ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam vero unde porro doloremque incidunt!</p>
+    <h3 class="font-sans text-sm">Lindsay spy - Designer</h3>
+</div>
+<span><img class="w-24 font-bold" src="images/icons8-more-than-50.png" alt=""></span>
+    </div>
+
+
+</section>
+
+
+<!--Features section-->
+
+<section id="features">
+
+    <!--container-->
+<div class="bg-zinc-700 text-white flex flex-col gap-10 px-3 py-20 lg:px-20 lg:py-28 lg:gap-12 xl:px-40 ">
+
+    <!--heading-->
+    <div class="flex flex-col gap-4 items-center">
+        <h2 class="font-sans text-4xl text-center font-bold">FEATURES</h2>
+        <p class="font-opensans text-center text-lg lg:px-28 xl:px-48">Morbi varius ante quis libero blandit auctor phasellus rhoncus varius nulla nec tristique. Vivamus quis placerat nisi. Duis suscipit feugiat neque eget bus</p>
+
+    </div>
+<!--heading group container-->
+<div class=" flex flex-row items-center justify-center gap-4 flex-wrap">
+    
+    <a href="" class="flex flex-row font-sans text-lg gap-2 uppercase hover:text-light-aqua transition duration-500"><span><img src="images/icons8-settings.svg" alt=""></span> Configuring</a>
+    <div class=" border-b-4 border-white"></div>
+
+
+
+    <a href="" class="flex flex-row font-sans text-lg gap-2 uppercase hover:text-light-aqua transition duration-500"><span><img src="images/icons8-settings.svg" alt=""></span> tracking</a>
+    <div class=" border-b-4 border-white"></div>
+
+
+
+    <a href="" class="flex flex-row font-sans text-lg gap-2  uppercase hover:text-light-aqua transition duration-500"><span><img src="images/icons8-settings.svg" alt=""></span> monitoring</a>
+    <div class=" border-b-4 border-white"></div>
+</div>
+
+<!--configure detail container-->
+
+<div class="container flex flex-col  lg:flex-row">
+    <!--details 1-->
+<div class="flex flex-col gap-5 lg:w-96 lg:py-7 lg:gap-10 xl:gap-20">
+    <div class="flex flex-row gap-3 lg:flex-row-reverse ">
+        <div class="w-28">
+    <img src="images/icons8-navigation-48.png" alt="">
+    </div>
+    <div class=" flex flex-col gap-3 ">
+        <h3 class="font-sans text-xl lg:text-end">Goal Setting</h3>
+        <p class="font-opensans text-lg lg:text-end">Nullam non tincidunt dui, vitae aliquet magna. Aenean ut porttit urna suspendisse luctus sena</p>
+    </div>
+    </div>
+    
+
+    <div class="flex flex-row gap-3 lg:flex-row-reverse ">
+        <div class="w-28">
+    <img src="images/icons8-navigation-48.png" alt="">
+    </div>
+    <div class=" flex flex-col gap-3">
+        <h3 class="font-sans text-xl lg:text-end">Visual Editor</h3>
+        <p class="font-opensans text-lg lg:text-end">Nullam non tincidunt dui, vitae aliquet magna. Aenean ut porttit urna suspendisse luctus sena</p>
+    </div>
+    </div>
+
+    <div class="flex flex-row gap-3 lg:flex-row-reverse">
+        <div class="w-28">
+    <img src="images/icons8-navigation-48.png" alt="">
+    </div>
+    <div class=" flex flex-col gap-3">
+        <h3 class="font-sans text-xl lg:text-end">Refined Options</h3>
+        <p class="font-opensans text-lg lg:text-end">Nullam non tincidunt dui, vitae aliquet magna. Aenean ut porttit urna suspendisse luctus sena</p>
+    </div>
+    </div>
+
+</div>
+
+<!--image-->
+<div class="py-20 px-5 flex  items-center justify-center lg:py-2 lg:w-fit">
+    <img  class="" src="images/features-smartphone-1.png" alt="">
+</div>
+
+<!--detail 3-->
+<div class="flex flex-col gap-5 lg:w-96 lg:py-7 lg:gap-10 xl:gap-20">
+    <div class="flex flex-row gap-3">
+        <div class="w-28 ">
+    <img src="images/icons8-navigation-48.png" alt="">
+    </div>
+    <div class=" flex flex-col gap-3">
+        <h3 class="font-sans text-xl">Calendar Input</h3>
+        <p class="font-opensans text-lg">Nullam non tincidunt dui, vitae aliquet magna. Aenean ut porttit urna suspendisse luctus sena</p>
+    </div>
+    </div>
+    
+
+    <div class="flex flex-row gap-3">
+        <div class="w-28">
+    <img src="images/icons8-navigation-48.png" alt="">
+    </div>
+    <div class=" flex flex-col gap-3">
+        <h3 class="font-sans text-xl">Easy Reading</h3>
+        <p class="font-opensans text-lg">Nullam non tincidunt dui, vitae aliquet magna. Aenean ut porttit urna suspendisse luctus sena</p>
+    </div>
+    </div>
+
+    <div class="flex flex-row gap-3">
+        <div class="w-28">
+    <img src="images/icons8-navigation-48.png" alt="">
+    </div>
+    <div class=" flex flex-col gap-3">
+        <h3 class="font-sans text-xl">Good Foundation</h3>
+        <p class="font-opensans text-lg">Nullam non tincidunt dui, vitae aliquet magna. Aenean ut porttit urna suspendisse luctus sena</p>
+    </div>
+    </div>
+
+</div>
+          
+</div>
+
+
+</div>
+
+
+
+
+
+
+</section>
+    
+
+
+
+<!--Preview section-->
+<section id="preview">
+
+    <!--Preview container-->
+<div class="bg-[url('./images/video-background.jpg')]  bg-center bg-cover flex flex-col gap-14 items-center justify-center text-white px-5 py-32 sm:px-20 ">
+   <!--preview heading-->
+    <div class="flex flex-col items-center justify-center gap-5">
+        <h2 class="font-sans uppercase text-3xl text-center">preview</h2>
+        <p class="font-opensans text-base text-center lg:px-32 xl:px-72 ">Donec ullamcorper at eros vestibulum porttitor. Aenean luctus nibh nec dapibus tempus ligula justo pretium ante at elementum mi massa at arcu interdum</p>
+    </div>
+
+    <!--preview video-->
+    <div class="">
+        <img class="rounded-xl" src="./images/video-frame.jpg" alt="">
+    </div>
+
+</div>
+</section>
+
+
+<!--customer section-->
+
+<section>
+
+    <!--customer container-->
+<div class="bg-deeper-black text-white flex flex-col gap-28 px-4 py-32 lg:px-12 xl:px-44">
+
+<!--detail 1-->
+<div class="flex flex-col items-center justify-center gap-14 lg:flex-row ">
+    <div class="lg:w-1/2">
+        <img src="images/details-1.png" alt="">
+    </div>
+<div class="flex flex-col items-start gap-6 lg:w-1/2">
+    <h1 class="font-sans font-bold text-start text-3xl ">Start using Leno today and set your long term goals</h1>
+    <p class="font-opensans text-start text-lg">Ac ante ipsum primis in faucibus. Nam et porttitor ipsum. Morbi eros augue, blandit in varius gravida tempor a massa. Curabitur ante dolor euismod a arcu nec pellentque</p>
+    <button class="text-center font-sans bg-light-aqua rounded-full px-8 py-2 border border-1 hover:text-light-aqua border-light-aqua hover:bg-deeper-black transition duration-1000  ">modal</button>
+</div>ck transition duration-1000
+
+</div>
+
+<!--detail 2-->
+<div class="flex flex-col items-center justify-center gap-14 lg:flex-row">
+    
+<div class="flex flex-col items-start gap-6 lg:w-1/2">
+    <h1 class="font-sans font-bold text-start text-3xl pr-6">The calendar feature helps you schedule tasks</h1>
+    <p class="font-opensans text-start text-lg">Morbi blandit felis at pharetra facilisis. Nullam nec felis eget lectus consequat rutrum. Suspendisse felis elit, interdum at eros eget facilisis tempor vestibulum sit amet mattis</p>
+    <button class="text-center font-sans font-normal bg-light-aqua rounded-full px-8 py-2 border border-1  hover:text-light-aqua border-light-aqua hover:bg-deeper-black transition duration-1000 ">Details</button>
+</div>
+
+<div class="lg:w-1/2">
+    <img  src="images/details-2.png" alt="">
+</div>
+
+</div>
+
+
+<!--detail 3-->
+<div class="  flex flex-row flex-wrap items-center justify-center gap-12 lg:gap-20 xl:gap-28">
+
+<div class="flex flex-col items-center gap-3">
+    <img  class="w-10" src="images/icons8-people-50.png" alt="">
+    <h1 class="font-opensans text-6xl font-bold">231</h1>
+    <p class="font-opensans text-base capitalize">happy customers</p>
+</div>
+
+
+<div class="flex flex-col items-center gap-3">
+    <img  class="w-10" src="images/icons8-people-50.png" alt="">
+    <h1 class="font-opensans text-6xl font-bold">385</h1>
+    <p class="font-opensans text-base capitalize">issue solved</p>
+</div>
+
+
+<div class="flex flex-col items-center gap-3">
+    <img  class="w-10" src="images/icons8-people-50.png" alt="">
+    <h1 class="font-opensans text-6xl font-bold">159</h1>
+    <p class="font-opensans text-base capitalize">Good reviews</p>
+</div>
+
+
+<div class="flex flex-col items-center gap-3">
+    <img  class="w-10" src="images/icons8-people-50.png" alt="">
+    <h1 class="font-opensans text-6xl font-bold">128</h1>
+    <p class="font-opensans text-base capitalize">case studies</p>
+</div>
+
+
+
+<div class="flex flex-col items-center gap-3">
+    <img  class="w-10" src="images/icons8-people-50.png" alt="">
+    <h1 class="font-opensans text-6xl font-bold">216</h1>
+    <p class="font-opensans text-base capitalize">press articles</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+
+<!--screenshot section-->
+
+<section id="screenshot">
+
+    <!-- screenshot container-->
+
+
+<div class="bg-zinc-700 text-white flex flex-col items-center  justify-center gap-14  py-24 md:gap-5 md:px-10 lg:px-14 xl:px-20 xl:gap-9">
+
+    <div class="flex flex-col items-center gap-3">
+        <h1 class=" font-sans text-center text-3xl font-bold uppercase">screenshot</h1>
+        <div class="border-b-2 w-20 border-light-aqua"></div>
+    </div>
+
+
+
+
+    
+
+    <div class=" flex flex-row items-center gap-6  justify-center">
+
+        <span ><img class="w-12 font-bold" src="images/icons8-less-than-50.png" alt=""></span>
+        <!--screenshot  1-->
+<div class=" ">
+   
+    <img class="" src="images/screenshot-1.png" alt="">
+</div>
+
+
+<!--screenshot 2-->
+<div class=" hidden items-center justify-center md:flex">
+    <img class="w-fit" src="images/screenshot-2.png" alt="">
+</div>
+
+
+<!--screenshot  3-->
+<div class="hidden items-center justify-center lg:flex ">
+    <img class="w-fit" src="images/screenshot-3.png" alt="">
+</div>
+
+
+<!--screenshot  4-->
+<div class="hidden flex-col items-center justify-center gap-5 xl:flex ">
+    <img class="w-fit" src="images/screenshot-4.png" alt="">
+</div>
+
+<!--screenshot  5-->
+<div class="hidden flex-col items-center justify-center gap-5 xl:flex">
+    <img class="w-fit" src="images/screenshot-5.png" alt="">
+</div>
+
+
+<!--screenshot  6-->
+<div class="hidden flex-col items-center justify-center gap-5 ">
+    <img class="w-fit" src="images/screenshot-6.png" alt="">
+</div>
+<span><img class="w-12 font-bold" src="images/icons8-more-than-50.png" alt=""></span>
+    </div>
+
+</div>
+</section>
+
+
+<!-- download section-->
+<section>
+    <!-- download container-->
+<div class="bg-[url('./images/header-background.jpg')] bg-cover bg-center bg-no-repeat flex flex-col  justify-center gap-20 px-7 py-32 sm:px-20 lg:flex-row lg:pt-44 xl:px-40  ">
+    <!-- Hero section heading-->
+    <div class="flex flex-col justify-center items-center gap-7 text-white lg:w-auto">
+
+<P class="text-center text-2xl font-bold font-sans sm:text-xl lg:text-start">Download Leno today to see the benefits and enjoy the results faster than any other app out there</P>
+<!--buttton-->
+<div class="flex flex-col justify-center gap-5 sm:flex-row lg:items-start ">
+<button class="inline-flex gap-2  border border-light-aqua bg-light-aqua px-6 py-3 rounded-full font-opensans hover:bg-deeper-blue transition duration-1000 lg:px-7 xl:items-start"><span><img  class="w-6 text-white" src="images/icons8-apple-logo-50 (1).png" alt=""></span> for iOS</button>
+<button class="inline-flex gap-2 capitalize border border-light-aqua  bg-light-aqua px-6 py-3 rounded-full font-opensans hover:bg-deeper-blue transition duration-1000 lg:px-7"><span><img  class="w-6 text-white" src="images/icons8-google-play-30.png" alt=""></span> for android</button>
+</div>
+    </div>
+
+    <!--  image-->
+    <img  class="lg:w-4/6 lg:h-3/6" src="images/download.png" alt="">
+
+</div>
+
+</section>
+
+
+<!-- About section-->
+<section>
+<!-- cointainer-->
+<div class="bg-deeper-black text-gray-400 flex flex-col gap-10 px-3 py-20 items-start lg:flex-row lg:px-16 lg:items-center lg:gap-20 xl:px-24">
+<div class="space-y-4 lg:w-4/12 ">
+    <h2 class="font-sans text-lg font-bold">About Website</h2>
+    <p class="text-base font-opensans">Aliquam ultrices turpis a auctor commodo. Etiam consectetur tincidunt elit ac euismod. Duis et finibus felis, non porttitor rapena live dolor</p>
+</div>
+
+
+<div class="space-y-4 lg:w-4/12">
+<h2  class="font-sans text-lg font-bold">Links</h2>
+<p class="text-base font-opensans">  Important: Terms & Conditions, Privacy Policy
+     <br> Useful: Colorpicker, Icon Library, Illustrations
+    Menu: Home, Article, Features, Contact </p>
+</div>
+
+<div class="lg:w-3/12 gap-y-5">
+    <span class="space-x-4">
+        <a  class="hover:text-light-aqua" href=""><iconify-icon icon="ic:baseline-facebook"></iconify-icon></a>
+        <a  class="hover:text-light-aqua" href=""><iconify-icon icon="ant-design:twitter-circle-filled"></iconify-icon></a>
+            <a  class="hover:text-light-aqua" href=""><iconify-icon icon="ph:pinterest-logo"></iconify-icon></a>
+                <a  class="hover:text-light-aqua" href=""> <iconify-icon icon="mdi:instagram"></iconify-icon></a>
+        
+    </span>
+    <p class="font-opensans">Quam posuerei pellent esque vam contact@site.com</p>
+</div>
+
+
+</div>
+
+</section>
+
+<footer class="bg-deeper-black text-gray-500 pb-10 ">
+    <div class="flex flex-row justify-center items-center gap-20">
+        <h2 class="text-center font-opensans">Copyright <span><iconify-icon icon="ic:baseline-copyright"></iconify-icon></span>taovilla</h2>
+       <a href="" class="hover:text-light-aqua"><img src="images/up-arrow.png" alt=""></a>
+    </div>
+    
+</footer>
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
