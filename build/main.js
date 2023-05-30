@@ -1,7 +1,10 @@
-const btn = document.getElementById('menu-btn');
-const nav = document.getElementById('menu');
+const btn = document.querySelector('.hamburger');
+const nav = document.querySelector('.hamburger-menu');
 
-btn.addEventListener("click", function(){
-    btn.classList.toggle('open')
+btn.addEventListener('click', function(){
+    nav.classList.toggle('hidden');
     
-})
+    
+    
+});
+

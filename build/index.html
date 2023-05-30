@@ -17,7 +17,7 @@
 <nav>
 
     <!--nav container-->
-    <div class="flex flex-row justify-between px-5 pt-7 pb-5 bg-deep-black text-white font-opensans lg:bg-deep-blue lg:fixed lg:w-full lg:px-3">
+    <div class="relative flex flex-row justify-between px-5 pt-7 pb-5 bg-deep-black text-white font-opensans lg:bg-deep-blue lg:fixed lg:w-full lg:px-3">
         <!--nav logo-->
         <img  class="w-24" src="images/logo.svg" alt="">
 
@@ -41,14 +41,30 @@
         </div>
 
 <!--Hamburger icon-->
-<button id="menu-bar" class=" focus:outline-none hidden sm:block">
-    <iconify-icon icon="system-uicons:menu-hamburger" width="50" height="50"></iconify-icon>
-
+<button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+    <iconify-icon icon="solar:hamburger-menu-bold-duotone" width="50" height="50"></iconify-icon>
 </button>
+
     </div>
 
-    <!--mobile-->
+    <!--mobile menu-->
+<div class="md:hidden">
 
+    <div id="menu" class=" hamburger-menu absolute flex flex-col items-start text-white hidden gap-5 self-end bg-deep-black py-8 px-10  font-opensans sm:w-full sm:self-start left-0 right-6 drop-shadow-md">
+        <a class="hover:text-light-aqua text-sm capitalize" href="">Home</a>
+        <a class="hover:text-light-aqua text-sm capitalize" href="">article</a>
+        <a class="hover:text-light-aqua text-sm capitalize"  href="">features</a>
+        <a class="hover:text-light-aqua text-sm capitalize" href="">pricing</a>
+        <a  class="hover:text-light-aqua text-sm capitalize" href="">drops</a>
+        <a class="hover:text-light-aqua text-sm capitalize" href="">Contact</a>
+        
+        <div class="flex flex-row justify-center  gap-1">
+        <a href=""><img  class="w-6 hover:bg-white" src="images/icons8-facebook.svg" alt=""></a>
+        <a href=""><img  class="w-6 hover:bg-white" src="images/icons8-twitter-circled.svg" alt=""></a>
+        </div>
+    </div>
+
+</div>
 
 </nav>
 
